@@ -1,0 +1,65 @@
+.loader {
+    border: 16px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 16px solid #3498db;
+    width: 120px;
+    height: 120px;
+    -webkit-animation: spin 2s linear infinite; /* Safari */
+    animation: spin 2s linear infinite;
+  }
+  
+  /* Safari */
+  @-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  h5.sellers-head {
+    text-align: center;
+    color: black;
+    font-weight: 600;
+    font-size: 27px;
+}
+
+
+p.buy-order {
+    text-align: center;
+    color: #000;
+    margin-top: 19px;
+    line-height: 0;
+    font-size: 15px;
+}
+
+body.light p.buy-order, body.light h5.sellers-head, body.light p.time-txt{
+  color: #000;
+} 
+.load-spinner{
+    display: flex;
+    justify-content: center;
+}
+
+p.time-txt {
+    color: gray;
+    text-align: center;
+    font-size: 15px;
+    line-height: 0;
+    margin-top: 25px;
+}
+
+@media (max-width: 767.98px){
+    p.buy-order, p.time-txt{
+        line-height: 1;
+    }
+}
+
+
+
+/* dark mode */
+
+body h5.sellers-head, body p.buy-order, body p.time-txt{
+  color: #fff;
+}

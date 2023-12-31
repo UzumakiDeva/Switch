@@ -1,0 +1,268 @@
+<?php
+
+use Illuminate\Database\Seeder;
+
+class CommissionsTableSeeder extends Seeder
+{
+    /**
+     * Run the database seeds.
+     *
+     * @return void
+     */
+    public function run()
+    {
+        DB::table('commissions')->insert(
+        [
+            'source'            => "BTC",
+            'withdraw'          => 1,
+            'buy_trade'         => 1,
+            'sell_trade'        => 1,
+            'type'              => 'coin',
+            'coinname'          => 'Bitcoin',
+            'netfee'            => '0.0001',
+            'min_deposit'       => '0.0001',
+            'min_withdraw'      => '0.0001',
+            'min_trade_price'   => '0.0001',
+            'point_value'       => '8',
+            'url'               => 'https://www.blockchain.com/btc/address/',
+            'image'             => 'btc.svg',
+            'status'            => 1,
+            'shown'             => 1,
+            'orderlist'         => 1,
+            'created_at'        => date("Y-m-d H:i:s"),
+            'updated_at'        => date("Y-m-d H:i:s"),     
+        ]);
+        DB::table('commissions')->insert(
+        [
+            'source'            => "ETH",
+            'withdraw'          => 1,
+            'buy_trade'         => 1,
+            'sell_trade'        => 1,
+            'type'              => 'coin',
+            'coinname'          => 'Ethereum',
+            'netfee'            => '0.00042',
+            'point_value'       => '8',
+            'min_deposit'       => '0.00042',
+            'min_withdraw'      => '0.00042',
+            'min_trade_price'   => '0.00042',
+            'url'               => 'https://etherscan.io/address/',
+            'image'             => 'eth.svg',
+            'status'            => 1,
+            'shown'             => 1,
+            'orderlist'         => 2,
+            'created_at'        => date("Y-m-d H:i:s"),
+            'updated_at'        => date("Y-m-d H:i:s"),     
+        ]);
+        DB::table('commissions')->insert(
+        [
+            'source'            => "LTC",
+            'withdraw'          => 1,
+            'buy_trade'         => 1,
+            'sell_trade'        => 1,
+            'type'              => 'coin',
+            'coinname'          => 'Litecoin',
+            'netfee'            => '0.0001',
+            'point_value'       => '8',
+            'min_deposit'       => '0.0001',
+            'min_withdraw'      => '0.0001',
+            'min_trade_price'   => '0.0001',
+            'url'               => 'https://bithomp.com/explorer/',
+            'image'             => 'ltc.svg',
+            'status'            => 1,
+            'shown'             => 1,
+            'orderlist'         => 3,
+            'created_at'        => date("Y-m-d H:i:s"),
+            'updated_at'        => date("Y-m-d H:i:s"),     
+        ]);
+
+        DB::table('commissions')->insert(
+            [
+                'source'            => "DASH",
+                'withdraw'          => 1,
+                'buy_trade'         => 1,
+                'sell_trade'        => 1,
+                'type'              => 'coin',
+                'coinname'          => 'Dash',
+                'netfee'            => '0.0001',
+                'min_deposit'       => '0.0001',
+                'min_withdraw'      => '0.0001',
+                'min_trade_price'   => '0.0001',
+                'point_value'       => '8',
+                'url'               => 'https://www.blockchain.com/btc/address/',
+                'image'             => 'dash.svg',
+                'status'            => 1,
+                'shown'             => 1,
+                'orderlist'         => 1,
+                'created_at'        => date("Y-m-d H:i:s"),
+                'updated_at'        => date("Y-m-d H:i:s"),     
+            ]);
+            DB::table('commissions')->insert(
+            [
+                'source'            => "USDT",
+                'withdraw'          => 1,
+                'buy_trade'         => 1,
+                'sell_trade'        => 1,
+                'type'              => 'coin',
+                'coinname'          => 'Tether',
+                'netfee'            => '0.00042',
+                'point_value'       => '8',
+                'min_deposit'       => '0.00042',
+                'min_withdraw'      => '0.00042',
+                'min_trade_price'   => '0.00042',
+                'url'               => 'https://etherscan.io/address/',
+                'image'             => 'usdt.svg',
+                'status'            => 1,
+                'shown'             => 1,
+                'orderlist'         => 2,
+                'created_at'        => date("Y-m-d H:i:s"),
+                'updated_at'        => date("Y-m-d H:i:s"),     
+            ]);
+            DB::table('commissions')->insert(
+            [
+                'source'            => "XMR",
+                'withdraw'          => 1,
+                'buy_trade'         => 1,
+                'sell_trade'        => 1,
+                'type'              => 'coin',
+                'coinname'          => 'Monero',
+                'netfee'            => '0.00042',
+                'point_value'       => '8',
+                'min_deposit'       => '0.00042',
+                'min_withdraw'      => '0.00042',
+                'min_trade_price'   => '0.00042',
+                'url'               => 'https://etherscan.io/address/',
+                'image'             => 'xmr.svg',
+                'status'            => 1,
+                'shown'             => 1,
+                'orderlist'         => 2,
+                'created_at'        => date("Y-m-d H:i:s"),
+                'updated_at'        => date("Y-m-d H:i:s"),     
+            ]);
+            DB::table('commissions')->insert(
+            [
+                'source'            => "XRP",
+                'withdraw'          => 1,
+                'buy_trade'         => 1,
+                'sell_trade'        => 1,
+                'type'              => 'coin',
+                'coinname'          => 'Ripple',
+                'netfee'            => '0.00042',
+                'point_value'       => '8',
+                'min_deposit'       => '0.00042',
+                'min_withdraw'      => '0.00042',
+                'min_trade_price'   => '0.00042',
+                'url'               => 'https://etherscan.io/address/',
+                'image'             => 'xrp.svg',
+                'status'            => 1,
+                'shown'             => 1,
+                'orderlist'         => 2,
+                'created_at'        => date("Y-m-d H:i:s"),
+                'updated_at'        => date("Y-m-d H:i:s"),     
+            ]);
+            DB::table('commissions')->insert(
+            [
+                'source'            => "LIO",
+                'withdraw'          => 1,
+                'buy_trade'         => 1,
+                'sell_trade'        => 1,
+                'type'              => 'coin',
+                'coinname'          => 'lio',
+                'netfee'            => '0.0001',
+                'point_value'       => '8',
+                'min_deposit'       => '0.0001',
+                'min_withdraw'      => '0.0001',
+                'min_trade_price'   => '0.0001',
+                'url'               => 'https://bithomp.com/explorer/',
+                'image'             => 'lio.svg',
+                'status'            => 1,
+                'shown'             => 1,
+                'orderlist'         => 3,
+                'created_at'        => date("Y-m-d H:i:s"),
+                'updated_at'        => date("Y-m-d H:i:s"),     
+            ]);
+            DB::table('commissions')->insert(
+            [
+                'source'            => "ECPAY",
+                'withdraw'          => 1,
+                'buy_trade'         => 1,
+                'sell_trade'        => 1,
+                'type'              => 'token',
+                'coinname'          => 'ecpay',
+                'netfee'            => '0.0001',
+                'point_value'       => '8',
+                'min_deposit'       => '0.0001',
+                'min_withdraw'      => '0.0001',
+                'min_trade_price'   => '0.0001',
+                'url'               => 'https://bithomp.com/explorer/',
+                'image'             => 'ecpay.svg',
+                'status'            => 1,
+                'shown'             => 1,
+                'orderlist'         => 3,
+                'created_at'        => date("Y-m-d H:i:s"),
+                'updated_at'        => date("Y-m-d H:i:s"),     
+            ]);
+            DB::table('commissions')->insert(
+            [
+                'source'            => "NAS",
+                'withdraw'          => 1,
+                'buy_trade'         => 1,
+                'sell_trade'        => 1,
+                'type'              => 'token',
+                'coinname'          => 'NAOS',
+                'netfee'            => '0.0001',
+                'point_value'       => '8',
+                'min_deposit'       => '0.0001',
+                'min_withdraw'      => '0.0001',
+                'min_trade_price'   => '0.0001',
+                'url'               => 'https://bithomp.com/explorer/',
+                'image'             => 'nas.svg',
+                'status'            => 1,
+                'shown'             => 1,
+                'orderlist'         => 3,
+                'created_at'        => date("Y-m-d H:i:s"),
+                'updated_at'        => date("Y-m-d H:i:s"),     
+            ]);
+            DB::table('commissions')->insert(
+                [
+                    'source'            => "QBC",
+                    'withdraw'          => 1,
+                    'buy_trade'         => 1,
+                    'sell_trade'        => 1,
+                    'type'              => 'token',
+                    'coinname'          => 'QBIC',
+                    'netfee'            => '0.0001',
+                    'point_value'       => '8',
+                    'min_deposit'       => '0.0001',
+                    'min_withdraw'      => '0.0001',
+                    'min_trade_price'   => '0.0001',
+                    'url'               => 'https://bithomp.com/explorer/',
+                    'image'             => 'qbc.svg',
+                    'status'            => 1,
+                    'shown'             => 1,
+                    'orderlist'         => 3,
+                    'created_at'        => date("Y-m-d H:i:s"),
+                    'updated_at'        => date("Y-m-d H:i:s"),     
+                ]);
+                DB::table('commissions')->insert(
+                    [
+                        'source'            => "EVX",
+                        'withdraw'          => 1,
+                        'buy_trade'         => 1,
+                        'sell_trade'        => 1,
+                        'type'              => 'token',
+                        'coinname'          => 'Smartkiri',
+                        'netfee'            => '0.0001',
+                        'point_value'       => '8',
+                        'min_deposit'       => '0.0001',
+                        'min_withdraw'      => '0.0001',
+                        'min_trade_price'   => '0.0001',
+                        'url'               => 'https://bithomp.com/explorer/',
+                        'image'             => 'evx.svg',
+                        'status'            => 1,
+                        'shown'             => 1,
+                        'orderlist'         => 3,
+                        'created_at'        => date("Y-m-d H:i:s"),
+                        'updated_at'        => date("Y-m-d H:i:s"),     
+                    ]);
+    }
+}

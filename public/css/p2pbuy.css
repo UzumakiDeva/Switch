@@ -1,0 +1,402 @@
+.sell-matched{
+    font-size: 17px;
+    text-align: center;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+body.pagewrapperbox.darkmode .sell-matched{
+  color: #fff !important;
+}
+.buyfullcontent{
+    text-align: center;
+    color: #000;
+    padding: 20px;
+    margin-top: 20px;
+   
+}
+
+button.cancel-btn {
+    border: 1px solid gray;
+    padding: 10px;
+    border-radius: 5px;
+    color: red;
+    background: transparent;
+    font-size: 15px;
+    font-weight: 600;
+}   
+.important-note{
+    background: wheat;
+    padding: 4px;
+    margin-top: 5px;
+    max-width: 493px;
+    margin: 16px auto;
+}
+body.pagewrapperbox.darkmode.modal-open .important-note{
+  background: transparent !important; 
+}
+.siteformbg .form-group {
+  text-align: center;
+  margin-bottom: 0 !important;
+}
+
+button.upi-btn {
+    border: 1px solid gray;
+    padding: 10px;
+    /* width: 8%; */
+    border-radius: 5px;
+    font-size: 19px;
+    font-family: cursive;
+    background: transparent;
+}
+
+p.pay-para-txt {
+    border-bottom: 1px solid;
+    font-weight: 700;
+    font-size: 15px;
+}
+.note-txt{
+    text-align: left;
+    padding-left: 10px;
+}
+
+
+/*  */
+.popup {
+    display: none;
+    position: fixed;
+    padding: 10px;
+    width: 30%;
+    left: 20%;
+    margin-left: -150px;
+    height: 58%;
+    top: 45%;
+    margin-top: -100px;
+    background: #FFF;
+    border: 3px solid #019094;
+    z-index: 20;
+    border-radius: 5px;
+  }
+  
+  #popup:after {
+    position: fixed;
+    content: "";
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(0,0,0,0.5);
+    z-index: -2;
+  }
+  
+  
+  #popup:before {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: #FFF;
+    z-index: -1;
+  }
+
+  
+  /* Styling buttons & webpage */
+  
+  
+  p {
+      margin: 1em 0;
+    font-size: 16px;
+  } 
+  
+  
+  .popupk {
+    display: none;
+    position: fixed;
+    padding: 10px;
+    width: 30%;
+    left: 43%;
+    margin-left: -150px;
+    height: 58%;
+    top: 30%;
+    margin-top: -100px;
+    background: #FFF;
+    border: 3px solid #019094;
+    z-index: 20;
+    border-radius: 5px;
+  }
+  
+  #popupk:after {
+    position: fixed;
+    content: "";
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(0,0,0,0.5);
+    z-index: -2;
+  }
+  
+  #popupk:before {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: #FFF;
+    z-index: -1;
+  }
+  
+  .close-btn{
+    color: #019094;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 700;
+  }
+  
+  button.pay-btn {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background: blue;
+    color: white;
+    font-weight: 600;
+    width: 91%;
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+
+
+select {
+  /* padding: 10px 15px; */
+    min-height: 3rem;
+    border: 2px solid lightgrey;
+    border-radius: 0.5rem;
+    color: black;
+    line-height: 1;
+  width: 80%;
+    box-shadow: 0 0.4rem 0.4rem 0 #2221;
+    transition: 0.6s ease-in;
+    /* &:hover {
+      transform: translateY(-0.2rem);
+      box-shadow: 0 0.8rem 0.8rem 0 #2222;
+      transition: 0.2s ease-out;
+    } */
+   
+  }
+
+  body select{
+    background-color: white !important;
+    font-size: 16px;
+  }
+
+  
+  
+  .cancel-button{
+    padding: 10px;
+    border-radius: 5px;
+ 
+    color: red;
+    font-weight: 700;
+    border: none;
+    margin: 10px;
+    font-size: 15px;
+    
+  }
+  .back-btn{
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 5px;
+    font-size: 15px;
+   
+  }
+
+
+
+
+
+
+
+
+
+  
+  .button {
+    font-size: 1em;
+    padding: 10px;
+    color: red;
+    border-radius: 20px/50px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+    font-size: 15px;
+    font-weight: 700;
+    border: 1px solid;
+  }
+
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+   
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 0;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  }
+
+  body.light .overlay{
+    background: #fff !important;
+  }
+  .overlay:target {
+    visibility: visible;
+    opacity: 1;
+    width: 52%;
+    visibility: visible;
+    opacity: 1;
+    height: 82%;
+    left: 24%;
+    z-index: 99;
+    top: 12%;
+  }
+  
+
+  .cancel-button .overlay:target {
+    height: 75% !important;
+  }
+  .popup {
+    margin: 70px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    width: 30%;
+    position: relative;
+    transition: all 5s ease-in-out;
+  }
+  
+  .popupe h2 {
+    margin-top: 0;
+    color: #000;
+    font-family: Tahoma, Arial, sans-serif;
+  }
+  .popupe .close {
+    position: absolute;
+    top: 2px;
+    right: 30px;
+    transition: all 200ms;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+  }
+ 
+  .popupe .content {
+    max-height: 30%;
+    overflow: auto;
+  }
+
+
+  @media (max-width: 767.98px){
+    button.upi-btn{
+        width: auto;
+    }
+    .overlay:target {
+  
+        width:auto;
+      
+        left: auto;
+    }
+    .popupe .close {
+        top: -10px;
+        right: 3px;
+    }
+
+    .popupk {
+      padding: 10px;
+    width: auto;
+    left: 47% !important;
+    height: 79% !important;
+    top: 35%;
+ }
+ .cancel-button {
+  text-align: center;
+}
+
+
+}
+@media (min-width: 768px) and  (max-width: 998.98px){
+  .popupk {
+    padding: 10px;
+  width: auto;
+  left: 29% !important;
+  height: 79% !important;
+  top: 30%;
+   
+  }
+  button.pay-btn{
+    width: 94%;
+  }
+  .popupe .close {
+   
+    right: 6px;
+}
+}
+
+@media (min-width: 999px) and  (max-width:  1199.98px){
+  .popupk {
+    padding: 10px;
+  width: auto;
+  left: 34%;
+  height: 79% !important;
+  top: 31%;
+   
+  
+}
+button.pay-btn{
+  width: 94%;
+}
+}
+
+
+/* back-link */
+
+
+
+
+
+
+.buyfullcontent i.fa.fa-close {
+  font-size: 60px;
+  background: red;
+  border-radius: 50%;
+  color: #fff;
+  padding: 14px 20px;
+}
+
+/* dark mode */
+body .overlay, body select{
+  background: #fff;
+}
+
+body .back-link-tag {
+  text-align: left !important;
+  max-width: 580px;
+  margin: 9px auto;
+}
+
+body .back-link-tag a.back-link{
+  color: #FFF;
+  text-decoration: none !important;
+  font-size: 15px !important;
+}
+
+body.light .back-link-tag a.back-link {
+  text-decoration: none !important;
+  font-size: 15px !important;
+  color: #000;
+}

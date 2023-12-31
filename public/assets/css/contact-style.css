@@ -1,0 +1,240 @@
+.contact-banner img {
+    width: 100%;
+}
+
+.contact-banner {
+    position: relative;
+}
+
+.text-contact {
+    position: absolute;
+    bottom: 10%;
+    z-index: 99;
+}
+
+/*.contact-banner {*/
+/*    background-color: #000001;*/
+/*    padding-bottom: 50px;*/
+/*}*/
+
+.contact-animate {
+    position: relative;
+    top: 25%;
+    -webkit-animation: move 1s infinite alternate;
+    animation: move 1s infinite alternate;
+    animation: bounce 1s;
+    animation-direction: alternate;
+    animation-timing-function: cubic-bezier(.5, 0.05, 1, .5);
+    animation-iteration-count: infinite;
+}
+
+.contact-banner::after {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: #000000a1;
+}
+
+.form-contact-us-page{background:#ffffff !important;max-width: 1000px;
+    margin: 0 auto;}
+
+.form.form-contact-us-page .form-control, .form.form-contact-us-page .form-select{
+    
+    border-bottom: solid 1px #6c757d!important;
+    color: #000 !important;
+}
+
+.form-contact-us-page h2 {
+    color: #111013 !important;
+    font-size: 3.5rem !important;
+    text-align: left !important;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-bottom: 0px;
+    display: inline-block !important;
+}
+
+.form-contact-us-page h5{
+    color: #111013 !important;
+    text-align: left !important;    
+    margin: 25px 0;
+}
+
+.form-contact-us-page p.form-cont-txt {
+    color: #6c757d;
+}
+input#flexCheckDefault {
+    border: 1px solid #666161b8!important;
+    position: relative;
+    top: -3px;
+}
+
+.form {
+    padding: 90px 0 60px 0 !important;
+}
+.contac header .fixed-top {
+    background: #000;
+}
+
+@keyframes bounce {
+    from {
+        transform: translate3d(0, 0, 0);
+    }
+    to {
+        transform: translate3d(0, 40px, 0);
+    }
+}
+
+
+.form-contact-us-page h5 {
+    margin: 70px 0 25px !important;
+}
+
+.contact-icon {
+    /*background: #091E6D;*/
+    padding: 0 15px 0 0;
+    font-size: 35px;
+    height: 55px;
+    line-height: 60px;
+    margin-right: 15px;
+}
+
+.common-cls-contact {
+    display: flex;
+    margin-top: 18px;
+}
+
+.contact-content-part strong {
+    font-size: 30px;
+}
+
+.contact-content-part p {
+    color: #000 !important;
+    margin-top: 5px !important;
+}
+
+.contact-content-part p {
+    line-height: 1.7;
+    font-weight: 500;
+}
+
+.contact-icon i {
+    color: #091E6D;
+}
+
+.form-contact-us-page .top-container > .row > .col-md-6 {
+    margin-top: 50px;
+}
+
+
+
+/* .perks-benfits {
+    padding-left: 20px;
+} */
+
+section.perks-benefits-section.Find-yourself .row {
+    align-items: center;
+}
+
+.alpha-qualifcatn {
+    padding-right: 20px;
+}
+
+/*.page-header:after {*/
+/*    transition: all 0.3s ease-in-out;*/
+/*    transform: translateX(-100%);*/
+/*    opacity: 0;*/
+/*}*/
+
+/*.page-header.active:after {*/
+/*    opacity: 1;*/
+/*    transform: translateX(0);*/
+/*    width: 50%;*/
+/*    left: 0;*/
+/*}*/
+
+@media (max-width: 992px){
+
+.text-contact{position:absolute;}
+    
+.contact-animate{top:0px;}   
+
+.contact-banner {
+    position: relative;
+    overflow: hidden;
+}
+
+.contact-banner img {
+    width: auto;
+    height: 400px;
+}
+    
+}
+
+@media (max-width:768px){
+
+.form.form-contact-us-page h2 {
+    color: #111013 !important;
+}
+
+.contact-content-part p, .contact-content-part a{font-size:18px !important}    
+    
+}
+
+@media (min-width:768px) and (max-width: 992px){
+
+.contact-banner img {
+    width: auto;
+    margin-top: 0;
+}
+    
+}
+
+
+@media (min-width:768px) and (max-width: 1199px){
+    
+.form-contact-us-page h2{font-size: 2.5rem !important;}
+
+}
+
+
+
+.contact-content-part a:hover{
+    color:#0d6efd !important;
+}
+.contact-content-part a {
+    text-decoration: auto;
+}
+.common-cls-contact .cont-off p {
+    color: #000000;
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 33px;
+}
+.common-cls-contact .list-inline a{
+    color: black !important;
+}
+.common-cls-contact .list-inline a {
+    font-size: 25px;
+    margin-left: 25px;
+}
+.common-cls-contact .list-inline {
+    display: inline-flex;
+    margin-left: -24px;
+}
+.contact-content-part a.map {
+    color:#212529;
+}
+.contact-content-part a.map:hover {
+    color: #fb9528 !important;
+}
+/*.con{*/
+/*    background-image: url(../assets/Images/contact-Vector.png);*/
+/*    background-position:  center;*/
+/*    background-size: contain;*/
+/*    background-repeat: no-repeat;*/
+/*    position: relative;*/
+/*}*/

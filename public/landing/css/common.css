@@ -1,0 +1,791 @@
+@media (max-width: 999px) {
+    .banner-right {
+    display:  block !important;
+}
+}
+.process-left  {
+    padding-top:  30px;
+    position:  relative;
+    padding-bottom:  150px;
+}
+.process-left  {
+    background:  url("../images/servicemain/process-coinbase.png");
+    background-repeat:  no-repeat;
+    background-size:  cover;
+    border-radius:  22px;
+}
+.process-left-img  {
+    position:  relative;
+}
+.process-sub-left  {
+    position:  relative;
+    z-index:  9;
+}
+.com-proc-move  {
+    text-align:  center;
+}
+.com-proc-move:last-child  {
+    margin-top:  55px;
+}
+.com-proc-move  {
+    text-align:  center;
+}
+.process-sub-right  {
+    margin-top:  -90px;
+    position:  relative;
+    z-index:  9;
+}
+.com-proc-move  {
+    text-align:  center;
+}
+.com-proc-move:last-child  {
+    margin-top:  55px;
+}
+.bottom-pc-img  {
+    position:  absolute;
+    bottom:  -211px;
+}
+section.process-coin.explore-the-benefits .process-right h3  {
+    margin-bottom:  10px;
+    font-weight:  600;
+}
+section.stack-preferable h3  {
+    font-weight:  600;
+}
+.proc-dev  {
+    margin-top:  20px;
+}
+/* .light-pink-img  {
+    display:  inline-block;
+    width:  65px;
+    height:  55px;
+    background:  #F7ECFF;
+    border-radius:  10px;
+    text-align:  center;
+    float:  left;
+} */
+.mode-of-exchange h5  {
+    font-weight:  700 !important;
+    font-size:  28px !important;
+}
+.light-pink-img img,  .light-blue-img img  {
+    position:  relative;
+}
+.light-pink-cont,  .light-blue-cont  {
+    width:  80%;
+    padding-left:  20px;
+    display:  inline-block;
+}
+.light-blue-img  {
+    display:  inline-block;
+    width:  65px;
+    height:  55px;
+    background:  #EFF6FC;
+    border-radius:  10px;
+    text-align:  center;
+    float:  left;
+}
+section.build-on-any-platform  {
+    text-align:  center;
+    padding-bottom:  60px;
+}
+section.tech-stack h3 {
+    font-weight:  600;
+}
+section.tech-stack h3 {
+    font-weight:  600;
+}
+span.h2-span  {
+    font-weight:  400;
+}
+section.opris-integration h3 {
+    font-weight:  600;
+}
+section.build-on-any-platform h3  {
+    font-weight:  600;
+}
+section.build-on-any-platform.extended-service .inner-block-build  {
+    padding-left:  30px;
+    padding-right:  30px;
+    min-height:  371px;
+}
+section.build-on-any-platform.extended-service .inner-block-build  {
+    border-radius:  0px;
+}
+section.build-on-any-platform .inner-block-build  {
+    margin:  40px 0;
+    padding:  35px 0;
+    background: #F8FEFF;
+    box-shadow: 8px 8px 16px #E5F5FC;
+    border-radius: 37px;
+}
+section.build-on-any-platform .inner-block-build .inner-block-build-img  {
+    margin-bottom:  25px;
+}
+section.build-on-any-platform.extended-service .inner-block-build-img img  {
+    min-height:  48px;
+}
+section.build-on-any-platform .inner-block-build h6  {
+    font-weight:  600;
+    font-size:  20px;
+}
+section.prefer-binance-script  {
+    background:  linear-gradient(90.86deg,  #000000 0.05%,  #012442 59.84%);
+    padding:  60px 0;
+    text-align:  center;
+    color:  #fff;
+}
+section.prefer-binance-script h3  {
+    font-weight:  700;
+}
+section.prefer-binance-script .contain-width p  {
+    margin:  30px 40px;
+}
+.inner-blockprefer  {
+    padding:  35px 20px 60px;
+    background:  rgba(0,  0,  0,  0.12);
+    margin-top:  25px;
+}
+.inner-blockprefer .inner-blockprefer-img  {
+    margin-bottom:  20px;
+}
+.inner-blockprefer-text  {
+    padding-bottom:  15px;
+    border-bottom:  1px solid #fff;
+}
+section.banner-part.index-form-sectn  {
+    padding-bottom:  100px;
+}
+.bca-clone-text  {
+    height:  100%;
+    display:  flex;
+    flex-direction:  column;
+    justify-content:  center;
+}
+.bca-clone-text h3  {
+    font-weight:  700;
+}
+.bca-clone-text p,  .bca-clone-text ul li  {
+    font-size:  16px !important;
+}
+.bca-clone-text ul  {
+    list-style:  none;
+    padding-left:  0px;
+    margin-top:  0px !important;
+}
+section.banner-part ul li  {
+    margin-bottom:  5px !important;
+    margin-top:  5px;
+}
+.form-img  {
+    display:  flex;
+    justify-content:  space-between;
+}
+.form-img-inner  {
+    margin:  20px 0;
+    padding:  0 20px;
+}
+section.banner-part.index-form-sectn .banner-right  {
+    justify-content:  flex-end;
+}
+.banner-right  {
+    height:  100%;
+    display:  flex;
+    align-items:  center;
+    justify-content:  center;
+}
+ul.form-list li span  {
+    display:  inline-block;
+    width:  20px;
+    height:  20px;
+    position: relative;
+    border-radius:  50%;
+    position:  relative;
+    top:  5px;
+    margin-right:  10px;
+}
+form#form-help  {
+    padding:  20px;
+    background:  #F8FCFF;
+    border: 20px solid #02FFFD;
+    box-shadow: 8px 8px 16px rgba(255, 149, 149, 0.2);
+    border-radius: 9.06px;
+}
+form#form-help h4  {
+    color:  #000 !important;
+    letter-spacing:  1px;
+}
+.linear-gradient-div {
+    background: rgba(2, 255, 253, 0.64);
+    filter: blur(257px);
+    border-radius: 220px;
+    width:  600px;
+    height:  200px;
+    position:  absolute;
+    top:  135px;
+    z-index:  -1;
+}
+.linear-gradient-div2 {
+    background: rgba(2, 255, 253, 0.64);
+    filter: blur(257px);
+    border-radius: 220px;
+    width:  450px;
+    height:  200px;
+    position:  absolute;
+    z-index:  -1;
+    bottom:  -59px;
+}
+.linear-gradient-div3 {
+    background: rgba(2, 255, 253, 0.64);
+    filter: blur(257px);
+    border-radius: 220px;
+    width:  550px;
+    height:  150px;
+    position:  absolute;
+    z-index:  -1;
+    top:  8rem;
+}
+.own-your-crypto-img  {
+    width: 85%;
+    margin-top: -209px;
+    right: 0;
+    top: 50%;
+}
+@media (max-width: 999px) {
+    .own-your-crypto-img  {
+    width:  100%;
+    margin-top:  -138px !important;
+    left:  0;
+    position:  relative;
+    margin-bottom:  11rem;
+}
+.inner-key-feature  {
+    padding:  0px 25px !important;
+}
+.contain-width.inner-key-feature .row p  {
+    padding-left:  0 !important;
+    margin-bottom:  30px;
+}
+}
+@media (max-width: 1399px) {
+    .red-span {
+    font-size:  45px !important;
+    color:  #FF0F0F;
+    font-weight:  400;
+}
+.opris-integration h5 br {
+    display:  none;
+}
+.opris-integration h5 {
+    margin-bottom: 2em;
+}
+}
+@media (min-width: 1025px) {
+    .faq-sectn .perks-benfits ol  {
+    padding-left: 5.7rem;
+}
+}
+span.bold-heading {
+    font-weight:  800;
+}
+@media (min-width: 1440px) {
+    .red-span {
+    color:  #FF0F0F;
+    font-weight:  400;
+    font-size:  64px !important;
+}
+}
+section.footer-part  {
+    background:  #E5F5FC;
+}
+section.footer-part h4  {
+    font-weight:  800;
+}
+section.footer-part h4  {
+    font-weight:  800;
+}
+section.footer-part .contain-width  {
+    padding:  50px 0 0;
+    border-top:  none !important;
+    border-bottom:  none !important;
+}
+section.footer-part ul  {
+    list-style:  none;
+    padding-left:  0px;
+}
+section.footer-part ul li  {
+    margin:  5px 0;
+}
+.foot-right  {
+    padding-left:  10%;
+}
+ul.foot-links  {
+    margin-bottom:  0px;
+    display:  flex;
+    align-items:  center;
+}
+ul.follow-icon-list  {
+    display:  flex;
+    justify-content:  space-between;
+    margin-top:  20px;
+    align-items:  center;
+}
+.foot-image img  {
+    width:  100%;
+}
+section.footer-part ul li a  {
+    text-decoration:  none;
+    color:  #000;
+}
+.timeline .draw-line  {
+    width:  4px;
+    height:  0;
+    position:  absolute;
+    left:  50%;
+    background:  #ff0000;
+    z-index:  -1;
+}
+@media (min-width: 991px) {
+    .point-block  {
+    min-height:  165px;
+    max-height:  108px;
+}
+}
+@media (max-width: 1440px) {
+    .timeline .default-line  {
+    content:  "";
+    position:  absolute;
+    left:  50%;
+    width:  4px;
+    height:  900px !important;
+}
+}
+@media (max-width: 991px) {
+    .draw-line {
+    height: 103rem !important;
+}
+}
+.step-1-dot {
+    position:  relative;
+}
+.step-2-dot {
+    position:  relative;
+}
+.step-3-dot {
+    position:  relative;
+}
+.step-4-dot {
+    position:  relative;
+}
+.step-5-dot {
+    position:  relative;
+}
+@media (max-width: 767.98px) {
+    section.faq-sectn  {
+    padding:  0 !important;
+}
+form#form-help  {
+    padding:  10px 8px !important;
+}
+.own-your-crypto-left  {
+    padding:  20px !important;
+}
+.intelignce-btn ul  {
+    list-style:  none;
+    padding-left:  0px;
+    display:  inline-block;
+    margin-top:  10px !important;
+    margin-bottom:  0;
+}
+section.prefer-binance-script .contain-width p  {
+    margin:  30px 10px;
+}
+.dev-approach h3,  .key-feature h3,  .logo-opris-quote-inner h3,  .meta-vese-inner .tabs .tablinks h4,  .right-inteligence h3,  .stack-preferable h3,  h3.overview-cls span,  h3.text-align-centre.font-w-800,  h4,  section.cex h3,  section.crypto-exchange h3,  section.modern-tech h3,  section.softwre-potrait h3,  section.interested-to-see-bsc h3,  section.opris-integration h3,  section.tech-stack h3,  section.prefer-binance-script h3,  section.process-coin.explore-the-benefits .process-right h3,  .bca-clone-text h3  {
+    font-size:  25px!important;
+}
+section.process-coin.explore-the-benefits .process-right h3 {
+    padding-top: 40px;
+}
+section.build-on-any-platform h3  {
+    font-size:  25px !important;
+    margin-bottom:  20px;
+}
+button.nav-link.menu-last span  {
+    font-size:  15px !important;
+}
+section.faq-sectn h3  {
+    margin-bottom:  20px;
+}
+span.mp-icon  {
+    height: 25px;
+    width: 40px;
+    line-height: 26px;
+}
+section.build-on-any-platform.wherever-your-users-are .col-sm-6  {
+    width:  50%;
+}
+section.build-on-any-platform.wherever-your-users-are .inner-block-build  {
+    padding:  10px 0;
+    margin-bottom:  30px;
+    margin-top:  20px;
+}
+section.build-on-any-platform.wherever-your-users-are .inner-block-build .inner-block-build-img img  {
+    height:  40px !important;
+    min-height:  40px;
+}
+section.build-on-any-platform.wherever-your-users-are .inner-block-build .inner-block-build-img  {
+    margin-bottom:  20px;
+}
+}
+.step-1-dot label {
+    margin-top: 3px;
+    position:  absolute;
+    color:  #fff;
+    right:  -2px;
+}
+.step-2-dot label {
+    top:  10.4rem;
+    position:  absolute;
+    color:  #fff;
+    right:  -6px;
+}
+.step-3-dot label {
+    top:  20.8rem;
+    position:  absolute;
+    color:  #fff;
+    right:  -6px;
+}
+.step-4-dot label {
+    top:  31rem;
+    position:  absolute;
+    color:  #fff;
+    right:  -5px;
+}
+.step-5-dot label {
+    top:  41.5rem;
+    position:  absolute;
+    color:  #fff;
+    right:  -5px;
+}
+.point-block::before  {
+    content:  '';
+    position:  absolute;
+    width:  30px;
+    height:  30px;
+    border-radius:  50%;
+    background:  #f00;
+    left:  -13px !important;
+    border:  2px solid #000;
+}
+.right-block-dev  {
+    position:  relative;
+}
+@media (min-width: 992px)  {
+    .right-block-dev  {
+    padding:  0 30px;
+}
+}
+.point-block  {
+    border-left:  0px;
+}
+.timeline ul  {
+    padding:  0;
+}
+.timeline  {
+    padding:  0;
+    position:  absolute;
+    top:  0;
+}
+.timeline .default-line  {
+    content:  "";
+    position:  absolute;
+    left:  50%;
+    width:  4px;
+    height:  770px !important;
+}
+.timeline ul li.in-view  {
+    transition:  0.125s ease-in-out,  background-color 0.2s ease-out,  color 0.1s ease-out,  border 0.1s ease-out;
+}
+.timeline ul li  {
+    list-style-type:  none;
+    position:  relative;
+    width:  2px;
+    margin:  0 auto;
+    background:  transparent;
+}
+section.interested-to-see-bsc  {
+    background: linear-gradient(93.99deg, #000000 60.98%, #01FFFF 100.31%);
+    padding:  40px 0;
+    color:  #fff;
+    margin-bottom:  40px;
+}
+.tab-top-notch-desktop  {
+    padding-bottom:  0 !important;
+}
+section.softwre-potrait  {
+    padding:  60px 0 !important;
+    position:  relative;
+}
+section.interested-to-see-bsc h3  {
+    text-align:  center;
+    font-weight:  700;
+    margin-bottom:  20px;
+}
+section.interested-to-see-bsc .intelignce-btn  {
+    height:  100%;
+}
+section.interested-to-see-bsc .intelignce-btn ul  {
+    margin-bottom:  0px !important;
+    display:  flex;
+    height:  100%;
+    justify-content:  center;
+    align-items:  center;
+}
+.intelignce-btn ul  {
+    list-style:  none;
+    padding-left:  0px;
+    display:  inline-block;
+    margin-top:  10px !important;
+}
+section.key-feature.serv .contain-width.inner-key-feature  {
+    background:  #F2FDFF;
+}
+section.key-feature.serv.key-feature h3  {
+    color:  #000 !important;
+}
+section.key-feature.serv .inner-key-feature span,  .inner-key-feature p  {
+    color:  #000 !important;
+}
+section.key-feature.serv .contain-width.inner-key-feature .row  {
+    margin-bottom:  25px;
+    margin-top:  30px;
+    border-bottom:  0.2px solid #000;
+}
+section.key-feature.serv .contain-width.inner-key-feature .row p  {
+    padding-left:  80px;
+    margin-bottom:  30px;
+}
+section.key-feature.serv .inner-key-feature  {
+    background:  #fff;
+    padding:  50px 100px 30px;
+    border-radius:  40px;
+}
+section.own-your-crypto .contain-width  {
+    background: linear-gradient(93.99deg, #000000 51.78%, #01FFFF 100.31%);
+    box-shadow: 0px 50px 100px -20px rgba(50, 50, 93, 0.3), 0px 30px 60px -30px rgba(0, 0, 0, 0.5), -10px 10px 60px -10px rgba(103, 178, 111, 0.3), inset 0px 1px 1px rgba(255, 255, 255, 0.15);
+    border-radius: 16px;
+}
+.own-your-crypto-left h4,  .own-your-crypto-left li  {
+    color:  #fff;
+}
+.own-your-crypto-left  {
+    padding:  50px;
+}
+ul.list-own-crypto li  {
+    display:  flex;
+    margin:  15px 0 0px;
+}
+.own-your-crypto-img img  {
+    width:  100%;
+}
+.own-your-crypto-img  {
+    position:  relative;
+}
+section.crypto-exchange h3.overview-cls  {
+    max-width:  1000px;
+    margin:  0 auto;
+    margin-bottom:  16px;
+}
+.crypto-para  {
+    max-width:  760px;
+    margin:  0px auto;
+}
+.crypto-para.ser  {
+    max-width:  760px;
+    margin:  0 auto;
+}
+section.top-notch  {
+    padding-bottom:  100px;
+}
+h3.top-notch-h3  {
+    max-width:  600px;
+    font-size:  40px;
+    line-height:  50px;
+    text-align:  center;
+    margin:  0 auto;
+    font-weight:  700;
+}
+p.top-notch-p  {
+    text-align:  center;
+    margin:  30px 0;
+}
+.tab-top-notch-desktop  {
+    display:  block;
+}
+.tab-top-notch .tab  {
+    border:  none;
+    background:  transparent;
+    display:  flex;
+    flex-wrap:  wrap;
+    justify-content:  center;
+}
+.tab  {
+    overflow:  hidden;
+    border:  1px solid #ccc;
+    background-color:  #f1f1f1;
+}
+.tab-top-notch button  {
+    background:  rgba(59,  70,  84,  0.1);
+    border-radius:  4px;
+    padding:  15px 35px;
+    margin-left:  10px;
+    font-size:  20px;
+    margin-bottom:  15px;
+}
+.tab button  {
+    float:  left;
+    border:  none;
+    outline:  none;
+    cursor:  pointer;
+    padding:  14px 16px;
+    transition:  0.3s;
+    font-size:  17px;
+}
+button.tablinkssss.active  {
+    background:  #3B4654;
+    color:  #fff;
+    box-shadow:  -13px 20px 47px rgb(0 0 0 / 25%);
+}
+.tabcontentsss  {
+    background:  linear-gradient(303.84deg,  #404C5A 33.26%,  #D75050 100.41%);
+    color:  #fff;
+    padding:  60px 70px;
+    margin-top:  40px;
+}
+.tabcontentsss  {
+    display:  none;
+    padding:  6px 12px;
+    border:  1px solid #ccc;
+    border-top:  none;
+}
+.top-notch-content  {
+    height:  100%;
+    display:  flex;
+    flex-direction:  column;
+    justify-content:  center;
+}
+.tabcontentsss h4  {
+    font-size:  32px !important;
+    font-weight:  700;
+    margin-bottom:  20px;
+}
+.tab-top-notch-mobile,  .mobile-clone-script-build  {
+    display:  none;
+}
+section.faq-sectn  {
+    padding:  60px 0px;
+}
+.block-1.coloured  {
+    background: #E5F5FC;
+    border-bottom: 1px solid #E5F5FC;
+}
+.block-1  {
+    padding:  20px;
+    background: rgba(229, 245, 252, 0.4);
+    border-bottom: 1px solid #cdcdcd;
+}
+.block-1 .accrd-panel-head  {
+    cursor:  pointer;
+    display:  flex;
+    justify-content:  space-between;
+}
+.perks-benfits h4  {
+    display:  flex;
+    font-weight:  800;
+    font-size:  17px !important;
+    margin: 0;
+}
+.block-1 .accrd-panel-body.active  {
+    display:  block;
+}
+.perks-benfits p  {
+    line-height:  1.5;
+    margin-top:  20px;
+}
+@media (max-width: 991.98px) {
+    section.tab-top-notch-desktop  {
+    display:  none !important;
+}
+}
+@media (max-width: 991.98px) {
+    .tab-top-notch-mobile,  .mobile-clone-script-build  {
+    display:  block !important;
+}
+.tab-top-notch-mobile .block-1.coloured  {
+    background:  transparent;
+}
+.tab-top-notch-mobile .accrd-panel-head.active  {
+    background:  #3B4654;
+    color:  #fff;
+    border-radius:  4px;
+    padding:  10px 5px;
+    margin-left:  0;
+    font-size:  20px;
+    margin-bottom:  0px;
+    justify-content:  center;
+    text-align:  center;
+    position:  relative;
+    line-height:  30px;
+}
+span.align-self-center  {
+    line-height:  30px;
+    margin-bottom:  0 !important;
+}
+.tab-top-notch-mobile .accrd-panel-body.active  {
+    padding-top:  30px;
+    background:  linear-gradient(303.84deg,  #404C5A 33.26%,  #D75050 100.41%);
+    color:  #fff;
+    padding-left:  15px;
+    padding-right:  15px;
+    padding-bottom:  30px;
+}
+.tab-top-notch.tab-top-notch-mobile.accordion-model-view .block-1 .accrd-panel-head  {
+    padding:  20px;
+    background:  rgba(59,  70,  84,  0.1);
+    border-radius:  4px;
+    padding:  10px 5px;
+    margin-left:  0;
+    font-size:  20px;
+    margin-bottom:  0px;
+    justify-content:  center;
+    text-align:  center;
+}
+.tab-top-notch.tab-top-notch-mobile.accordion-model-view .block-1 .accrd-panel-body  {
+    padding-top:  30px;
+    background:  linear-gradient(303.84deg,  #404C5A 33.26%,  #D75050 100.41%);
+    color:  #fff;
+    padding-left:  15px;
+    padding-right:  15px;
+    padding-bottom:  30px;
+}
+.tab-top-notch.tab-top-notch-mobile.accordion-model-view .block-1 .accrd-panel-head h4  {
+    line-height:  30px;
+    margin-bottom:  0px;
+}
+.bcs-works-best-scalable-architecture img,  .top-notch-main-img img  {
+    width:  100%;
+}
+.tab-top-notch-mobile .block-1  {
+    border-bottom:  none;
+    background:  transparent;
+}
+.tab-top-notch.tab-top-notch-mobile.accordion-model-view .block-1 .accrd-panel-head.active  {
+    background:  #3B4654;
+    color:  #fff;
+}
+}
+@media (min-width: 1025px) {
+    .faq-sectn .perks-benfits p  {
+    padding-left:  4.7rem;
+}
+}

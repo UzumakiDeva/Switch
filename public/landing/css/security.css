@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300&family=Poppins:ital,wght@1,300&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.contain-width {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.secure-rules .page-header h1{
+    text-align: center;
+    font-size: 60px;
+    font-weight: 700;
+    color: #ffffff;
+    margin: 20px 0;
+}
+.secure-rules .page-header{
+    background: linear-gradient(93.99deg, #000000 60.98%, #01FFFF 100.31%);
+    padding: 1px 0px;
+}
+.terms {
+    margin: 70px 0px;
+}
+section.secure-rules .sub-terms h5 {
+    font-weight: 600;
+    font-size: 26px !important;
+    margin-bottom: 20px;
+    display: flex;
+}
+.sub-terms {
+    margin-bottom: 15px;
+}
+h5 span{
+padding-right: 15px;
+}
+.sub-terms p {
+    font-weight: 400;
+    font-size: 18px !important;
+    line-height: 25px !important;
+    margin: 0;
+    padding-bottom: 10px;
+}
+.para span{
+    font-weight: 500;
+    font-size: 18px !important;
+    padding-right: 15px;
+}
+span.numeric use{
+    font-weight: 600;
+    font-size: 26px;
+}
+ .para{
+    display: flex;
+    padding-left: 60px;
+}
+
+section.secure-rules span.numeric {
+    font-size: 30px !important;
+    background: linear-gradient(109.54deg, #01FFFF -3.62%, #019094 93.53%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-weight: 800 !important;
+    margin-right: 10px;
+    padding: 0;
+}
+ span.align-self-center {
+    font-size: 22px !important;
+}
+
+/* AMI & KYC css */
+
+section.anti-money-full .anti-money {
+    background: linear-gradient(93.99deg, #000000 60.98%, #01FFFF 100.31%);
+    padding: 1px 0px;
+    color: #fff;
+    margin-bottom: 40px;
+}
+section.anti-money-full h1.anti-head {
+    text-align: center;
+    font-size: 60px;
+    font-weight: 700;
+    color: #ffffff;
+    margin: 20px 0;
+}
+section.anti-money-full .para-cnt {
+    font-size: 18px !important;
+}
+section.anti-money-full span.numeric {
+    font-size: 30px !important;
+    background: linear-gradient(109.54deg, #01FFFF -3.62%, #019094 93.53%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-weight: 800 !important;
+    margin-right: 10px;
+    padding: 0;
+}
+section.anti-money-full .para {
+    margin-bottom: 10px;
+    display: flex;
+    padding-left: 60px;
+}
+.anti-para-txt ul {
+    margin-bottom: 30px;
+}
+section.anti-money-full .sub-terms h5.heading {
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 26px !important;
+    margin-bottom: 20px;
+    display: flex;
+}
+.heading-2 {
+    font-family: auto;
+    font-size: 30px !important;
+    margin: 40px 0;
+    font-weight: 600;
+    text-align: center;
+    color: red !important;
+}
+ol.list-content li {
+    margin-bottom: 10px;
+}
+ol.list-content {
+    font-size: 18px !important;
+    color: #000;
+    margin-left: 12px;
+}
+
+
+
+/* Risk Disclosure Statement */
+
+body.light .risk-disclosure {
+    background: linear-gradient(93.99deg, #000000 60.98%, #01FFFF 100.31%);
+    padding: 20px 0;
+    color: #fff;
+    margin-bottom: 40px;
+    text-align: center;
+}
+body.light h1.risk-head {
+    color: #fff !important;
+}
+p.content-para {
+    font-size: 20px;
+    line-height: 1;
+    text-align: center;
+    font-weight: 600;
+}
+p.trade-para {
+    font-weight: 400;
+    font-size: 20px;
+    color: #000;
+}
+section.risk-dis span.numeric {
+    font-size: 30px !important;
+    background: linear-gradient(109.54deg, #01FFFF -3.62%, #019094 93.53%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-weight: 800 !important;
+    margin-right: 10px;
+    padding: 0;
+}
+section.risk-dis h5.head-txt {
+    font-weight: 600;
+    font-size: 26px !important;
+    margin-bottom: 20px;
+    display: flex;
+}
+section.risk-dis h4.team-txt {
+    text-align: center;
+    /* color: #01FFFF; */
+    font-weight: 700;
+    margin: 30px 0;
+}
+
+
+
+/* dark mode */
+
+body.dark .page-header {
+    background: linear-gradient(94.17deg, #F2FDFF 62.05%, #00B1B1 102.06%);
+}
+body.dark .page-header h1{
+    color: #000000;
+}
+body.dark section.anti-money-full .anti-money, .risk-disclosure{
+    background: linear-gradient(94.17deg, #F2FDFF 62.05%, #00B1B1 102.06%);
+padding: 20px 0;
+    color: #fff;
+    margin-bottom: 40px;
+text-align: center;
+}
+body.dark section.anti-money-full h1.anti-head, h1.risk-head{
+    color: #000000 !important;
+}
+body.dark ::marker {
+    color: #fff;
+}
+body.dark ol.list-content li {
+    color:#fff;
+}
+
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .sub-terms h5 {
+        font-size: 23px;
+    }
+}
+@media (max-width: 767px) {
+    .secure-rules .page-header h1 {
+        text-align: center;
+        font-size: 40px !important;
+    }
+    .sub-terms h5 {
+        font-weight: 600;
+        font-size: 19px;
+        line-height: 26px !important;
+    }
+    section.secure-rules .para {
+        padding-left: 0;
+    }
+    section.secure-rules span.numeric{
+        margin-bottom: 0 !important;
+    }
+    section.secure-rules .terms {
+        margin: 40px 0px;
+    }
+    section.anti-money-full h1.anti-head{
+        text-align: center;
+        font-size: 30px !important;
+    }
+    section.anti-money-full .para {
+        padding-left: 0;
+    }
+    .heading-2 {
+        font-family: auto;
+        font-size: 20px !important;
+        margin: 20px 0;
+        font-weight: 600;
+        text-align: center;
+        color: red;
+    }
+    section.risk-dis h1.risk-head {
+        text-align: center;
+        font-size: 40px !important;
+    }
+    p.content-para {
+        font-size: 20px;
+        line-height: 1.5;
+        text-align: center;
+        font-weight: 400;
+    }
+    section.risk-dis .para {
+        padding-left: 0;
+    }
+    section.risk-dis h5.head-txt {
+        font-weight: 600;
+        font-size: 26px !important;
+        margin-bottom: 20px;
+        display: flex;
+        line-height: 26px !important;
+    }
+    section.risk-dis span.numeric {
+        margin-bottom: 0 !important;
+    }
+    section.risk-dis h4.team-txt {
+        font-size: 20px !important;
+    }
+}
+
